@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap');
+@import "tailwindcss";
+:root{
+  --font-google-sans-code: 'Google Sans Code', monospace;
+}
+*{
+  font-family: "Google Sans Code", monospace;
+}
+body{
+   background: #212529;
+}
+
+.shadow_input{
+  box-shadow:  0 0 4px 0px white;
+}
+.shadow_box{
+  box-shadow:  0 0 5px rgba(0,0,0,0.8) ;
+}
